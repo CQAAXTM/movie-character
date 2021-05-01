@@ -2,8 +2,9 @@ body{
 	margin: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 15px;
-	color: #292940;
+	color: #E2E2BE;
 	line-height: 25px;
+	background-color: #292930;
 }
 
 header{
@@ -35,7 +36,9 @@ main{
 }
 
 main img{
-	max-width: 100%
+	max-width: 100%;
+	border-radius: 170px;
+	border: 5px solid #F38714;
 }
 
 h2{
@@ -49,7 +52,8 @@ a{
 }
 
 a:hover{
-	color: #292940;
+	color: #E2E2BE;
+	opacity: 75%;
 }
 
 footer{
@@ -76,4 +80,5 @@ p.caption{
 	color: #999999;
 	font-style: italic;
 	margin-top: 0;
+	text-align: center;
 }
